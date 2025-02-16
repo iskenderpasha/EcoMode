@@ -60,3 +60,10 @@ Eco Mode'u daha iyi hale getirmek için katkıda bulunmaktan çekinmeyin! Yeni �
 ---
 
 **Eco Mode** ile taramayı daha yeşil hale getirin! 🌿
+
+--
+## İletişim Bilgilerim
+
+**Discord:** iskenderpasa
+
+**Discord Server:** https://discord.gg/DcageVKB
