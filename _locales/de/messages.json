@@ -1,0 +1,38 @@
+{
+    "extName": {
+      "message": "Eco-Modus",
+      "description": "Erweiterungsname"
+    },
+    "extDescription": {
+      "message": "Energieeffizientes Surferlebnis",
+      "description": "Erweiterungsbeschreibung"
+    },
+    "darkModeTitle": {
+      "message": "Dunkelmodus",
+      "description": "Titel für Dunkelmodus"
+    },
+    "darkModeDesc": {
+      "message": "Reduzieren Sie den Energieverbrauch des Bildschirms",
+      "description": "Beschreibung für Dunkelmodus"
+    },
+    "fpsLimiter": {
+      "message": "FPS-Begrenzer",
+      "description": "Titel für FPS-Begrenzer"
+    },
+    "advancedSettings": {
+      "message": "Erweiterte Einstellungen",
+      "description": "Titel für erweiterte Einstellungen"
+    },
+    "hardwareAcceleration": {
+      "message": "Hardwarebeschleunigung deaktivieren",
+      "description": "Einstellung für Hardwarebeschleunigung"
+    },
+    "notifications": {
+      "message": "Benachrichtigungen",
+      "description": "Titel für Benachrichtigungen"
+    },
+    "energyAlerts": {
+      "message": "Energieeinsparungsbenachrichtigungen",
+      "description": "Benachrichtigungen für Energieeinsparungen"
+    }
+  }

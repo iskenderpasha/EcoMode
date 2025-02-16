@@ -1,0 +1,38 @@
+{
+    "extName": {
+      "message": "Eko Mod",
+      "description": "Eklenti adı"
+    },
+    "extDescription": {
+      "message": "Enerji verimli tarama deneyimi",
+      "description": "Eklenti açıklaması"
+    },
+    "darkModeTitle": {
+      "message": "Karanlık Mod",
+      "description": "Karanlık mod başlığı"
+    },
+    "darkModeDesc": {
+      "message": "Ekran enerji tüketimini azaltın",
+      "description": "Karanlık mod açıklaması"
+    },
+    "fpsLimiter": {
+      "message": "FPS Sınırlayıcı",
+      "description": "FPS sınırlayıcı başlığı"
+    },
+    "advancedSettings": {
+      "message": "Gelişmiş Ayarlar",
+      "description": "Gelişmiş ayarlar başlığı"
+    },
+    "hardwareAcceleration": {
+      "message": "Donanım Hızlandırmayı Devre Dışı Bırak",
+      "description": "Donanım hızlandırma ayarı"
+    },
+    "notifications": {
+      "message": "Bildirimler",
+      "description": "Bildirimler başlığı"
+    },
+    "energyAlerts": {
+      "message": "Enerji Tasarrufu Uyarıları",
+      "description": "Enerji tasarrufu bildirimleri"
+    }
+  }

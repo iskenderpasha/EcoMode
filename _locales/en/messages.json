@@ -1,0 +1,14 @@
+{
+    "extName": {
+      "message": "Eco Mode",
+      "description": "Extension name"
+    },
+    "extDescription": {
+      "message": "Energy efficient browsing experience",
+      "description": "Extension description"
+    },
+    "darkModeTitle": {
+      "message": "Dark Mode",
+      "description": "Dark mode title"
+    }
+  }

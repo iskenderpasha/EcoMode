@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="extName">Eco Mode</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Language Selector -->
+    <div class="language-selector">
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="tr">Türkçe</option>
+        <option value="de">Deutsch</option>
+      </select>
+    </div>
+
+    <!-- Header with Energy Savings -->
+    <header class="header">
+      <h1 data-i18n="extName">Eco Mode</h1>
+      <div class="energy-savings">
+        <span class="savings-icon">⚡</span>
+        <span id="energy-saving-amount">0.0 kWh</span>
+      </div>
+    </header>
+
+    <!-- Dark Mode Section -->
+    <section class="feature-section">
+      <h2><i class="fas fa-moon"></i> <span data-i18n="darkModeTitle">Dark Mode</span></h2>
+      <p data-i18n="darkModeDesc">Reduce screen energy consumption</p>
+      <div class="toggle-switch">
+        <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+        <label for="dark-mode-toggle" class="toggle-label"></label>
+      </div>
+    </section>
+
+    <!-- FPS Limiter Section -->
+    <section class="feature-section">
+      <h2><i class="fas fa-tachometer-alt"></i> <span data-i18n="fpsLimiter">FPS Limiter</span></h2>
+      <div class="toggle-switch">
+        <input type="checkbox" id="fps-limiter-toggle" class="toggle-input">
+        <label for="fps-limiter-toggle" class="toggle-label"></label>
+      </div>
+      <div class="fps-settings">
+        <select id="fps-limit">
+          <option value="30">30 FPS</option>
+          <option value="45">45 FPS</option>
+          <option value="60">60 FPS</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Advanced Features -->
+    <section class="advanced-features">
+      <h2><i class="fas fa-cogs"></i> <span data-i18n="advancedSettings">Advanced Settings</span></h2>
+      <div class="feature-item">
+        <label data-i18n="hardwareAcceleration">Disable Hardware Acceleration</label>
+        <div class="toggle-switch">
+          <input type="checkbox" id="hardware-acceleration-toggle">
+          <label for="hardware-acceleration-toggle" class="toggle-label"></label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notification Settings -->
+    <section class="notification-section">
+      <h2><i class="fas fa-bell"></i> <span data-i18n="notifications">Notifications</span></h2>
+      <div class="notification-item">
+        <label data-i18n="energyAlerts">Energy Saving Alerts</label>
+        <div class="toggle-switch">
+          <input type="checkbox" id="energy-alerts-toggle">
+          <label for="energy-alerts-toggle" class="toggle-label"></label>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="../utils/i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
